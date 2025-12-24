@@ -26,5 +26,5 @@ function shareQuote() {
     const quoteText = blockquote.textContent;
     const authorText = author.textContent;
     const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent('"' + quoteText + '" - ' + authorText)}`;
-    window.open(twitterUrl, '_blank');
+    window.open(twitterUrl, '_blank', 'width=600,height=400');
 }
